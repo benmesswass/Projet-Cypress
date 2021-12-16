@@ -22,6 +22,9 @@
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false,
-    "stepDefinitions" : "cypress/cucumber/stepDefinitions"
-   }
+    "stepDefinitions": "cypress/cucumber/stepDefinitions"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.6.0"
+  }
 }
